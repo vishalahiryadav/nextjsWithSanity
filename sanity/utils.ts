@@ -1,4 +1,4 @@
-import qs from "querystring"
+import qs from 'query-string'
 
 interface BuildQueryParams {
   type: string;
@@ -48,8 +48,8 @@ export function formUrlQuery({ params, key, value, keysToRemove }: UrlQueryParam
     currentUrl[key] = value;
   }
 
-  return qs.stringify(
-    { url: window.location.pathname, query : currentUrl },
+  return qs.stringifyUrl(
+    { url: window.location.pathname, query: currentUrl },
     { skipNull: true }
   )
 }
