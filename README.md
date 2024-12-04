@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Educational Course Site
 
-## Getting Started
+This is a platform designed to educational courses online. Built with modern technologies, it provides a seamless experience for managing and showcasing courses.
 
-First, run the development server:
+![Screenshot (247)](https://github.com/user-attachments/assets/6d974774-db63-476b-95b2-7c6e2d58cfe9)
 
-```bash
+
+Features
+
+Dynamic Course Management: Powered by Sanity CMS for easy content updates.
+
+Modern UI Design: Built using ShadCN for a polished and responsive user interface.
+
+Server-Side Rendering: Leveraging Next.js for enhanced performance.
+
+TypeScript: Ensuring type safety throughout the project.
+
+![Screenshot (249)](https://github.com/user-attachments/assets/ed681137-6318-442f-9e07-bb3dde1f4ff2)
+
+Technologies Used
+
+Next.js: Framework for server-side rendering and routing.
+
+TypeScript: For a robust and maintainable codebase.
+
+Sanity CMS: Content management backend.
+
+ShadCN: For a modern and accessible UI.
+
+![Screenshot (248)](https://github.com/user-attachments/assets/2cb4c62d-82f1-45ed-abdb-4729debc361a)
+
+Setup Instructions
+
+1. Clone the repository:
+
+git clone https://github.com/vishalahiryadav/nextjsWithSanity.git
+cd nextjsWithSanity
+
+
+2. Install dependencies:
+
+npm install
+
+
+3. Configure environment variables:
+
+Create a .env file in the root directory.
+
+Add your Sanity project credentials and any other required environment variables.
+
+
+
+4. Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+5. Access the application in your browser at http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Future Enhancements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Add payment integration for course purchases.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Implement advanced search and filtering for courses.
